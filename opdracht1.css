@@ -1,0 +1,20 @@
+body {
+    background-color: black;
+}
+
+p {
+    background-color: blue;
+}
+
+.groen {
+    background-color: green;
+}
+
+.header {
+    color: white;
+    background-color:lightblue;
+}
+
+a:hover {
+    color: white;
+}
