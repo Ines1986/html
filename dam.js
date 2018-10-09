@@ -31,11 +31,39 @@ function nieuw() {
         }
         stenen[i].setAttribute("id", "steen" + i);
         stenen[i].addEventListener("click",function () {
-            alert("Klik op steen ");
+            // alert("Klik op steen ");
+            one();
+
         });
-        var n = 2* (i+1);
+
+        if (i<20) {
+            var n = 2* (i+1);
+        } else
+        {
+            var n = 20 + 2* (i+1);
+            
+        }
         movestone(stenen[i], n.toString());         
     }
 }
 
+// function nieuw() {
+//     for (var i=0;i<20;i++) {
+//         stenen[i] = document.createElement("div");
+//         stenen[i].setAttribute("class", "circlewhite");
+//         var n = 2* (i+1);
+//         };
+        
+//     for (var i=99;i>80;i--) {
+//         stenen[i] = document.createElement("div");
+//         stenen[i].setAttribute("class", "circleblack");
+//         }
 
+//         stenen[i].setAttribute("id", "steen" + i);
+//         stenen[i].addEventListener("click",function () {
+//             alert("Klik op steen ");
+//         });
+//         var n = 2* (i-1);
+//         movestone(stenen[i], n.toString());         
+//     }
+    
