@@ -12,8 +12,9 @@ function one() {
 }
 
 function movestone(i, x){
-    var cel = document.getElementById(x);
     console.log(x);
+    
+    var cel = document.getElementById(x);
     console.log(cel);
 
     cel.appendChild(i);
@@ -32,7 +33,7 @@ function nieuw() {
         stenen[i].addEventListener("click",function () {
             alert("Klik op steen ");
         });
-        var n = 2* i;
+        var n = 2* (i+1);
         movestone(stenen[i], n.toString());         
     }
 }
