@@ -1,0 +1,34 @@
+.black {
+    min-width: 50px;
+    heigth: 50px;
+    background-color: darkgray;
+    border: 3px solid black;
+
+}
+
+.white {
+    min-width: 50px;
+    height: 50px;
+    background-color: white;
+    border: 3px solid black;
+}
+
+.circlewhite {
+    border-radius: 50%;
+   background-color: white;
+    max-width: 40px;
+    height: 40px;
+    border: 2px solid red;
+    opacity: 1;
+    /* margin: 0 0; */
+  
+}
+
+.circleblack {
+    border-radius: 50%;
+   background-color: black;
+    max-width: 40px;
+    height: 40px;
+    border: 2px solid blue;
+    opacity:1;
+}
